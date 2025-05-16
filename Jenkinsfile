@@ -29,7 +29,7 @@ pipeline{
         }
         stage('Integration Tests on Staging'){
             steps{
-                echo "Performing integration tests using 'Selenium'..."
+                echo "Performing integration tests using 'Selenium'....."
             }
         }
         stage('Deploy to Production'){
